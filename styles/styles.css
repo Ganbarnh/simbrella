@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px 10rem;
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    position: fixed;
+    width:100%;
+  
+    
+}
+nav a{
+    text-decoration:none;
+    padding:0 0 0 35px;
+    font-weight: 600;
+}
+nav{
+    margin-left:200px;
+}
+
+main{
+    background-image: url(https://www.simbrella.com/site/assets/files/1040/cover.jpg);
+    background-position: center;
+    background-size: cover;
+    padding:300px 10rem;
+}
+
+main .h-top{
+    margin-top: -100px;
+    font-family: Arial, sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    letter-spacing: -0.32;
+    color: rgb(0, 0, 0);
+    width:50%;
+    
+    
+
+}
+main .p-top{
+    margin-top:40px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color:rgb(1, 1, 1);
+    width:50%;
+
+    
+}
+
+
+header .logo {
+    margin-right:0px;
+}
+
+
+.second .whatwedo {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:80px 10rem;
+
+}
+.whatwedo .box {
+    width:30%;
+    height:100%;
+    border:1px solid rgb(45,49,146);
+    border-radius:5px;
+    text-align: center;
+    padding:0;
+    padding:60px 30px;
+    transition:1s;
+}
+.second .box .h-bot,.p-bot{
+    width:70%;
+    margin:auto;
+}
+.box .h-bot{
+    margin-bottom:60px;
+}
+
+.whatwedo .box:hover {
+    padding:70px 50px;
+}
+.between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:40px 10rem;
+
+}
+.between .h-btw{
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    color:rgb(45,49,146);
+}
+.between .button{
+    padding:16px 100px 16px 24px;
+    border:3px solid rgb(97, 97, 97);
+    border-radius: 12px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    color:rgb(45,49,146);
+
+}
+.between .button:hover{
+    border:3px solid orange;
+    
+}
